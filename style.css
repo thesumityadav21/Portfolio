@@ -9,10 +9,11 @@
     min-height: 100vh;
     width: 100%;
     background color : rgba(14, 23, 24, 0.938);
-    background-image: linear-gradient(rgba (4,9,30,0.7), rgba(4,9,30,0.7), url(images/banner.png));
+    background-image : url(images/banner.png));
     background-position: center;
     background-size: cover;
     position: relative;
+    
 
 }
 
@@ -331,11 +332,18 @@ nav .fa{
 }
 */
 .cta{
+     background-image: url(images/banner2.jpg);
+    opacity: 90%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 90px 0;
     text-align: center;
 
 }
 .cta h1{
-    color: rgb(24, 4, 4);
+  color: rgb(24, 4, 4);
     margin-bottom: 40px;
     padding: 10px;
     text-align: center;
@@ -351,6 +359,24 @@ nav .fa{
     text-shadow: darkslategrey;
     
 
+}
+
+.cta a{
+
+        border:  2px solid #0e0505;
+        background: transparent;
+        margin: 2px;
+
+}
+
+.cta a:hover{
+
+    
+        border:  1px solid #f44336;
+        background: #f44336;
+        transition: 1s;
+    
+    
 }
 
 @media(max-width){
